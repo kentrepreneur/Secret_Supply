@@ -8,6 +8,7 @@ html {
   color: white;
 }
 
+/* Banner Section */
 .logo-banner {
   width: 100%;
   background-color: black;
@@ -22,4 +23,35 @@ html {
   padding-left: 0.5rem;
   padding-right: 1rem;
   height: 1.5rem;
+}
+
+/* Hero Image Section */
+.hero {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+}
+
+.hero-box {
+  background-color: black;
+  width: 20rem;
+  font-weight: bold;
+  padding: 2rem 3rem;
+  margin-top: 9rem;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.hero-box h1 {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+.hero-box h4 {
+  font-size: 1rem;
 }
