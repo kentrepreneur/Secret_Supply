@@ -133,3 +133,11 @@ html {
 }
 
 /* Footer Section */
+footer {
+  background-color: black;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
