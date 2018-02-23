@@ -1,0 +1,25 @@
+html {
+  font-size: 18px;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+
+.logo-banner {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.logo-banner img {
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
