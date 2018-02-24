@@ -53,6 +53,26 @@ html {
   font-size: 1rem;
 }
 
+@media only screen and (max-width: 470px) {
+  .Hero {
+    height: 15rem;
+  }
+
+  .hero-box {
+    width: 100%;
+    padding: 1rem 2rem;
+    top: 18rem;
+  }
+
+  .hero-box h4 {
+    font-size: .77rem;
+  }
+
+  .hero-box h1 {
+    font-size: 1rem;
+  }
+}
+
 /* Navigation Section */
   .nav {
   background-color: firebrick;
@@ -68,6 +88,19 @@ html {
 .nav-link a {
   text-decoration: none;
   color: inherit;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    background-color: firebrick;
+    display: block;
+    text-align: center;
+    padding: 0.75rem 0;
+  }
 }
 
 /* Main Content Section */
@@ -121,8 +154,47 @@ html {
   color: black;
 }
 
+@media only screen and (max-width: 1024px) {
+  .box-a {
+    width: 47%;
+  }
+
+  #glasses {
+    display: none;
+  }
+
+@media only screen and (max-width: 470px) {
+  .main-content {
+    margin-top: 2rem;
+  }
+
+  .products, .box-b {
+    flex-wrap: wrap;
+  }
+
+  .box-a {
+    width: 90%;
+    margin: auto;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  .box-b {
+    width: 90%;
+    margin: 1.5rem auto;
+  }
+}
+
 /* Footer Section */
 footer {
   background-color: black;
   padding: 2rem 0;
+}
+
+@media only screen and (max-width: 470px) {
+  footer {
+    text-align: center;
+  }
 }
