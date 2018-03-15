@@ -28,7 +28,7 @@ html {
 
 /* Hero Image Section */
 .hero {
-  background-image: url("../images/moto.jpeg");
+  background-image: url("../Images/moto.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -199,3 +199,5 @@ footer {
     text-align: center;
   }
 }
+
+/* Fixed links */
